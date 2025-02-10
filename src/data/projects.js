@@ -117,7 +117,7 @@ export const projects = [
     mem: 1,
     genre: "Role-playing, Action, Top-down, 2D",
     image: "/images/projects/Survival_4.png",
-    video: "https://www.youtube.com/watch?v=WHABTmO91rI&t=41s",
+    video: "https://www.youtube.com/watch?v=WHABTmO91rI",
     shortDescription: "Đây là một game nhập vai, bắn súng, top-down, vượt ải.",
     description:
       "Đây là một game bắn súng top-down lấy ý tưởng về phòng thí nghiệm robot. Nhân vật cần tiêu diệt kẻ thù để đi tiếp.",
