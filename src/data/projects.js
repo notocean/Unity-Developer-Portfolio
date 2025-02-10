@@ -38,7 +38,7 @@ export const projects = [
     mem: 1,
     genre: "Action, Exploration, Top-down, 3D",
     image: "/images/projects/The-Last-Captain_7.png",
-    video: "/videos/The-Last-Captain.mp4",
+    video: "https://www.youtube.com/shorts/PnE-DXg1z_g",
     shortDescription:
       "Game lấy bối cảnh của một thế giới tràn ngập trong nước, người chơi cần điều khiển thuyền tiêu diệt quái vật và tìm hiểu các bí ấn.",
     description:
@@ -90,7 +90,7 @@ export const projects = [
     mem: 3,
     genre: "Role-playing, Endless, Top-down, 3D",
     image: "/images/projects/The-Hero_4.png",
-    video: "/videos/The-Hero.mp4",
+    video: "https://www.youtube.com/watch?v=n_O0o3At72E",
     shortDescription:
       "Game là sự kết hợp giữa Liên Minh Huyền Thoại và lối chơi kẻ thù vô hạn của tựa game Brotato.",
     description:
@@ -117,7 +117,7 @@ export const projects = [
     mem: 1,
     genre: "Role-playing, Action, Top-down, 2D",
     image: "/images/projects/Survival_4.png",
-    video: "/videos/Survival.mp4",
+    video: "https://www.youtube.com/watch?v=WHABTmO91rI&t=41s",
     shortDescription: "Đây là một game nhập vai, bắn súng, top-down, vượt ải.",
     description:
       "Đây là một game bắn súng top-down lấy ý tưởng về phòng thí nghiệm robot. Nhân vật cần tiêu diệt kẻ thù để đi tiếp.",

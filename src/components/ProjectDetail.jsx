@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { HiUser, HiUsers, HiClock } from "react-icons/hi2";
+import ReactPlayer from "react-player";
 
 export default function ProjectDetail({ project }) {
   var details = project.details;
@@ -7,14 +8,18 @@ export default function ProjectDetail({ project }) {
   const [aspectRatio, setAspectRatio] = useState("landscape");
 
   useEffect(() => {
-    const video = document.createElement("video");
-    video.src = project.video;
+    if (project.video.includes("youtube.com/shorts")) {
+      setAspectRatio("portrait");
+    } else {
+      // Nếu không phải Shorts, tiếp tục kiểm tra thông qua metadata
+      const video = document.createElement("video");
+      video.src = project.video;
 
-    // Lắng nghe sự kiện loadedmetadata để lấy kích thước thực của video
-    video.addEventListener("loadedmetadata", () => {
-      const isPortrait = video.videoHeight > video.videoWidth;
-      setAspectRatio(isPortrait ? "portrait" : "landscape");
-    });
+      video.addEventListener("loadedmetadata", () => {
+        const isPortrait = video.videoHeight > video.videoWidth;
+        setAspectRatio(isPortrait ? "portrait" : "landscape");
+      });
+    }
   }, [project.video]);
 
   return (
@@ -35,17 +40,15 @@ export default function ProjectDetail({ project }) {
         >
           <div
             className={`flex justify-center ${
-              aspectRatio === "landscape" ? "aspect-video " : "aspect-[9/16]"
+              aspectRatio === "landscape" ? "aspect-video" : "aspect-[9/16]"
             }`}
           >
-            <video
-              className="h-full object-cover bg-neutral-900"
-              muted
-              playsInline
+            <ReactPlayer
+              url={project.video}
+              playing={false}
               controls
-            >
-              <source src={project.video} type="video/mp4" />
-            </video>
+              height="100%"
+            />
           </div>
         </div>
       </div>
