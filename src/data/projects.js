@@ -1,37 +1,42 @@
 export const projects = [
-  // {
-  //   id: 1,
-  //   title: "Flying Duck (2025)",
-  //   mem: 1,
-  //   genre: "Precision platformer, Side-scrolling, 2D",
-  //   image: "/images/projects/flying-duck.jpg",
-  //   video: "",
-  //   shortDescription:
-  //     "Game này lấy cảm hứng từ game Jump King với lối chơi nhảy lên các nền tảng. Ngoài ra game cũng có rất nhiều các ý tưởng khác biệt.",
-  //   description:
-  //     "Hành trình của một chú vịt đi tìm những quả trứng bị đánh cắp của mình. Chú vịt phải di chuyển lên phía trên, sử dụng đôi cánh để có những cú nhảy chính xác và tránh các kẻ thù nguy hiểm.",
-  //   time: "12/2024 - 2/2025",
-  //   details: [
-  //     {
-  //       content:
-  //         "Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án",
-  //       images: [
-  //         "/images/projects/EnergyBar.png",
-  //         "/images/projects/Turtle.png",
-  //         "/images/projects/Turtle.png",
-  //       ],
-  //     },
-  //     {
-  //       content:
-  //         "Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án Đoạn văn mô tả chi tiết về dự án",
-  //       images: [
-  //         "/images/projects/flying-duck-3.jpg",
-  //         "/images/projects/flying-duck-4.jpg",
-  //         "/images/projects/flying-duck-5.jpg",
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    id: 1,
+    title: "Flying Duck (2025)",
+    mem: 1,
+    genre: "Precision platformer, Side-scrolling, 2D",
+    image: "/images/projects/Flying-Duck_0.png",
+    video: "https://www.youtube.com/shorts/rymQgi0VrEY",
+    shortDescription:
+      "Game này lấy cảm hứng từ game Jump King với lối chơi nhảy lên các nền tảng. Ngoài ra game cũng có rất nhiều các ý tưởng khác biệt.",
+    description:
+      "Hành trình của một chú vịt đi tìm những quả trứng bị đánh cắp của mình. Chú vịt phải di chuyển lên phía trên, sử dụng đôi cánh để có những cú nhảy chính xác và tránh các kẻ thù nguy hiểm.",
+    time: "4 tháng",
+    details: [
+      {
+        content: "Màn hình bắt đầu và hướng dẫn trò chơi.",
+        images: [
+          "/images/projects/Flying-Duck_0.png",
+          "/images/projects/Flying-Duck_1.png",
+        ],
+      },
+      {
+        content: "Màn hình chơi game.",
+        images: [
+          "/images/projects/Flying-Duck_2.png",
+          "/images/projects/Flying-Duck_3.png",
+          "/images/projects/Flying-Duck_4.png",
+          "/images/projects/Flying-Duck_5.png",
+        ],
+      },
+      {
+        content: "Các trang phục và dược phẩm bổ trợ trong game.",
+        images: [
+          "/images/projects/Flying-Duck_6.png",
+          "/images/projects/Flying-Duck_7.png",
+        ],
+      },
+    ],
+  },
   {
     id: 2,
     title: "The Last Captain (2024)",
@@ -43,7 +48,7 @@ export const projects = [
       "Game lấy bối cảnh của một thế giới tràn ngập trong nước, người chơi cần điều khiển thuyền tiêu diệt quái vật và tìm hiểu các bí ấn.",
     description:
       "Game lấy bối cảnh của một thế giới tràn ngập trong nước, người chơi điều khiển thuyền tiêu diệt quái vật, tìm hiểu các bí ấn và mở khóa các khu vực mới. Người chơi sử dụng các loại quặng kiếm được để nâng cấp thuyền.",
-    time: "7/2024 - 9/2024",
+    time: "2 tháng",
     details: [
       {
         content:
@@ -95,7 +100,7 @@ export const projects = [
       "Game là sự kết hợp giữa Liên Minh Huyền Thoại và lối chơi kẻ thù vô hạn của tựa game Brotato.",
     description:
       "Game là sự kết hợp giữa Liên Minh Huyền Thoại và lối chơi kẻ thù vô hạn của tựa game Brotato. Các trang bị có thể mua bằng vàng và nhân vật có thể sử dụng để tăng sức mạnh. Nhân vật thực hiện chiến đấu với quái vật để kiếm vàng và đạt điểm số cao hơn.",
-    time: "3/2024 - 5/2024",
+    time: "2 tháng",
     details: [
       {
         content: "Màn hình khởi đầu, cài đặt và lựa chọn các trang bị",
@@ -121,7 +126,7 @@ export const projects = [
     shortDescription: "Đây là một game nhập vai, bắn súng, top-down, vượt ải.",
     description:
       "Đây là một game bắn súng top-down lấy ý tưởng về phòng thí nghiệm robot. Nhân vật cần tiêu diệt kẻ thù để đi tiếp.",
-    time: "9/2023 - 11/2023",
+    time: "2 tháng",
     details: [
       {
         content: "Màn hình bắt đầu.",
