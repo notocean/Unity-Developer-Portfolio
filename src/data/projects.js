@@ -5,7 +5,7 @@ export const projects = [
     mem: 1,
     genre: "Precision platformer, Side-scrolling, 2D",
     image: "/images/projects/Flying-Duck_0.png",
-    video: "https://www.youtube.com/shorts/rymQgi0VrEY",
+    video: "https://www.youtube.com/watch?v=--EUJIZ0dYY",
     shortDescription:
       "Game này lấy cảm hứng từ game Jump King với lối chơi nhảy lên các nền tảng. Ngoài ra game cũng có rất nhiều các ý tưởng khác biệt.",
     description:
