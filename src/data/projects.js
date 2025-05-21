@@ -116,41 +116,4 @@ export const projects = [
       },
     ],
   },
-  {
-    id: 4,
-    title: "Survival (2023)",
-    mem: 1,
-    genre: "Role-playing, Action, Top-down, 2D",
-    image: "/images/projects/Survival_4.png",
-    video: "https://www.youtube.com/watch?v=WHABTmO91rI",
-    shortDescription: "Đây là một game nhập vai, bắn súng, top-down, vượt ải.",
-    description:
-      "Đây là một game bắn súng top-down lấy ý tưởng về phòng thí nghiệm robot. Nhân vật cần tiêu diệt kẻ thù để đi tiếp.",
-    time: "2 tháng",
-    details: [
-      {
-        content: "Màn hình bắt đầu.",
-        images: [
-          "/images/projects/Survival_1.png",
-          "/images/projects/Survival_2.png",
-        ],
-      },
-      {
-        content:
-          "Nhân vật có thể di chuyển và tấn công theo 8 hướng. Kẻ thù có nhiều thể loại đa dạng với các cách di chuyển và tấn công khác nhau.",
-        images: [
-          "/images/projects/Survival_3.png",
-          "/images/projects/Survival_4.png",
-          "/images/projects/Survival_5.png",
-        ],
-      },
-      {
-        content: "Màn hình chiến thắng và thua cuộc.",
-        images: [
-          "/images/projects/Survival_6.png",
-          "/images/projects/Survival_7.png",
-        ],
-      },
-    ],
-  },
 ];
